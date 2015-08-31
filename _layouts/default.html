@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.name }}</title>
     <meta name="description" content="{{ site.name }}" />
-    <meta name="keywords" content="jekyll, image gallery, image grid, template, masonry" />
-    <meta name="author" content="Nii Adjetey Sowah" />
+    <meta name="keywords" content="comics, image gallery" />
+    <meta name="author" content="{{ site.author.name }}" />
 
-    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/demo.css" />
-    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/component.css" />
-    <script src="{{ site.url }}/js/modernizr.custom.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/component.css" />
+    <script src="{{ site.baseurl }}/js/modernizr.custom.js"></script>
   </head>
   <body>
 
   {{ content }}
 
-    <script src="{{ site.url }}/js/imagesloaded.pkgd.min.js"></script>
-    <script src="{{ site.url }}/js/masonry.pkgd.min.js"></script>
-    <script src="{{ site.url }}/js/classie.js"></script>
-    <script src="{{ site.url }}/js/cbpGridGallery.js"></script>
+    <script src="{{ site.baseurl }}/js/imagesloaded.pkgd.min.js"></script>
+    <script src="{{ site.baseurl }}/js/masonry.pkgd.min.js"></script>
+    <script src="{{ site.baseurl }}/js/classie.js"></script>
+    <script src="{{ site.baseurl }}/js/cbpGridGallery.js"></script>
     <script>
       new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
     </script>
