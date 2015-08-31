@@ -1,23 +1,47 @@
 ---
 layout: default
 ---
+<div class="container">
+	<header class="clearfix">
+		<h1>{{ site.name }}</h1>
+	</header>
+	<div id="grid-gallery" class="grid-gallery">
 
-<div class="home">
+	<section class="grid-wrap">
+	<ul class="grid">
+		<li class="grid-sizer"></li><!-- for Masonry column width -->
+		{% for post in site.posts %}
+		<li>
+			<figure>
+				<img src="{{ site.url }}/img/thumb/{{ post.photo }}" alt="img"/>
+				<figcaption>
+					<h3>{{ post.caption_header}}</h3>
+					<p>{{ post.caption }}</p>
+				</figcaption>
+			</figure>
+		</li>
+		{% endfor %}
+	</ul>
+	</section><!-- // grid-wrap -->
 
-  <h1 class="page-heading">Posts</h1>
+	<section class="slideshow">
+	<ul>
+		{% for post in site.posts %}
+		<li>
+			<figure>
+				<img src="{{ site.url }}/img/large/{{ post.photo }}" alt="img"/>
+				<figcaption><h3>{{ post.caption_header}}</h3><p>{{ post.caption }}</p></figcaption>
+			</figure>
+		</li>
+		{% endfor %}
+	</ul>
+	<nav>
+		<span class="icon nav-prev"></span>
+		<span class="icon nav-next"></span>
+		<span class="icon nav-close"></span>
+	</nav>
+	<div class="info-keys icon">Navigate with arrow keys</div>
+	</section><!-- // slideshow -->
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+	</div><!-- // grid-gallery -->
 </div>
