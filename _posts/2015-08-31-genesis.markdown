@@ -4,6 +4,6 @@ date:   2015-08-31 08:00:00
 title:  "Mad-Dam genesis"
 categories: annoucement
 ---
-Mad Dam is a 2015 French dystopian action comic directed by Mad Max himself, produced by the G.A.G team. Mat-Maz played a big role writting the screenplay and led the hero during its adventures.
+Mad Dam is a 2015 French dystopian action comic directed by Mad Max himself and produced by the G.A.G team. Mat-Maz played a big role writting the screenplay and led the hero during its adventures.
 
 <img src="{{ site.baseurl }}/images/genesis.jpg">
