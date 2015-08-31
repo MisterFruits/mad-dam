@@ -1,8 +1,9 @@
-name: Photo gallery
-markdown: redcarpet
+name: Mad-Dam adventures
 pygments: true
 permalink: /:year/:month/:title/
-url: http://nadjetey.github.io/GridGallery/
+baseurl: /mad-dam
+url: https://maxiimou.github.io/
 author:
-    name: Nii Adjetey Sowah
-    twitter: #
+    name: "G.A.G Team & Co"
+
+markdown: redcarpet
