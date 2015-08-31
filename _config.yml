@@ -1,7 +1,7 @@
 # Site settings
-title: Maxiimou blog posts
+title: Mad-dam adventures
 github_username:  maxiimou
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
+baseurl: "/mad-dam" # the subpath of your site, e.g. /blog/
 
 # Build settings
 markdown: kramdown
