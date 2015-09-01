@@ -1,0 +1,9 @@
+---
+layout: default
+categories: adventure
+date:  2015-09-01 14:28:11 
+caption_header:  The whale
+caption: We don&#039;t need no thought control
+photo: 2015-09-01-whale.jpg
+---
+
