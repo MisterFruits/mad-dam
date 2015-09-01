@@ -4,5 +4,5 @@ date:   2015-08-31 08:01:00
 caption_header:  "Swimming Mad-Dam"
 caption: You can see gym training here ! 
 categories: adventure
-photo: 2015-08-31-swimming.png
+photo: 2015-08-31-swimming.jpg
 ---
