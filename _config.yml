@@ -1,4 +1,5 @@
 name: Mad-Dam adventures
+description: Back to comics ! Mad-Dam is on the stage
 pygments: true
 permalink: /:year/:month/:title/
 baseurl: /mad-dam
