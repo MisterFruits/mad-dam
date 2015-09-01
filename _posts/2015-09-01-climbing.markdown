@@ -1,0 +1,9 @@
+---
+layout: default
+categories: adventure
+date:  2015-09-01 14:43:08 
+caption_header:  Get up!
+caption: 
+photo: 2015-09-01-climbing.jpg
+---
+

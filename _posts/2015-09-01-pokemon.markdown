@@ -1,0 +1,9 @@
+---
+layout: default
+categories: adventure
+date:  2015-09-01 14:47:56 
+caption_header:  Catch them all!
+caption: Be red or blue
+photo: 2015-09-01-pokemon.jpg
+---
+

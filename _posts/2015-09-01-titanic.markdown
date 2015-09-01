@@ -1,0 +1,9 @@
+---
+layout: default
+categories: adventure
+date:  2015-09-01 14:48:52 
+caption_header:  Famous
+caption: I know you know...
+photo: 2015-09-01-titanic.jpg
+---
+

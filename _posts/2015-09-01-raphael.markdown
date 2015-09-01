@@ -1,0 +1,9 @@
+---
+layout: default
+categories: adventure
+date:  2015-09-01 14:45:54 
+caption_header:  Raphael
+caption: I&#039;d like to introduce a new friend!
+photo: 2015-09-01-raphael.jpg
+---
+

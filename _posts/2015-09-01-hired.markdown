@@ -1,0 +1,9 @@
+---
+layout: default
+categories: adventure
+date:  2015-09-01 14:38:46 
+caption_header:  I had a dream...
+caption: Blue badge, really ?
+photo: 2015-09-01-hired.jpg
+---
+

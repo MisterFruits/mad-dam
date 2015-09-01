@@ -1,0 +1,9 @@
+---
+layout: default
+categories: adventure
+date:  2015-09-01 14:42:24 
+caption_header:  Bientôt les grandes vacances !
+caption: Can be an expression for &quot;unemployment&quot;
+photo: 2015-09-01-beach.jpg
+---
+
