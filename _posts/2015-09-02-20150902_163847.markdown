@@ -1,0 +1,9 @@
+---
+layout: default
+categories: adventure
+date:  2015-09-02 14:40:33 
+caption_header:  High as a kite
+caption: Kite surfin USA
+photo: 2015-09-02-20150902_163847.jpg
+---
+
