@@ -1,0 +1,9 @@
+---
+layout: default
+categories: adventure
+date:  2015-09-02 11:19:34 
+caption_header:  Blackout
+caption: Ctrl S !!!
+photo: 2015-09-02-20150901_090140.jpg
+---
+
