@@ -1,0 +1,9 @@
+---
+layout: default
+categories: adventure
+date:  2015-09-04 08:49:09 
+caption_header:  Landscaping Gardener - Job Description
+caption: Have you always wanted to work outdoors? Do you enjoy an independent position that allows you to see your hard work come to life? We are looking for Gardeners who are ready to roll up their sleeves and make our resort grounds beautiful!
+photo: 2015-09-04-garden.JPG
+---
+
