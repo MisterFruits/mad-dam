@@ -9,10 +9,10 @@ DEFAULT_SIZE = (256, 256)
 DEFAULT_EXTS = ('.jpg', '.png', '.bmp')
 
 
-def maj_thumbnails(large_dir, thumbnail_dir, size=DEFAULT_SIZE):
-    for img, name in iterimages(large_dir):
+def maj_thumbnails(idir, odir, size=DEFAULT_SIZE, force=False):
+    for img, name in iterimages(idir):
         img.thumbnail(size, Image.ANTIALIAS)
-        img.save(os.path.join(thumbnail_dir, name))
+        img.save(os.path.join(odir, name))
 
 
 def iterimages(idir, exts=DEFAULT_EXTS):
