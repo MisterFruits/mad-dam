@@ -6,17 +6,19 @@ import os
 import argparse
 
 DEFAULT_SIZE = (256, 256)
+DEFAULT_EXTS = ('.jpg', '.png', '.bmp')
 
 
 def maj_thumbnails(large_dir, thumbnail_dir, size=DEFAULT_SIZE):
     for img, name in iterimages(large_dir):
-        img.thumbnail(DEFAULT_SIZE, Image.ANTIALIAS)
+        img.thumbnail(size, Image.ANTIALIAS)
         img.save(os.path.join(thumbnail_dir, name))
 
 
-def iterimages(idir, ext=('.jpg', '.png', '.bmp')):
-    for image in os.listdiar(idir):
-        if os.path.splitext(image) in ext:
+def iterimages(idir, exts=DEFAULT_EXTS):
+    for image in os.listdir(idir):
+        _, ext = os.path.splitext(image)
+        if ext in exts:
             yield Image.open(os.path.join(idir, image)), image
 
 
