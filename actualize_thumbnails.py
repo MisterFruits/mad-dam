@@ -6,11 +6,13 @@ import os
 import argparse
 
 DEFAULT_SIZE = (256, 256)
-DEFAULT_EXTS = ('.jpg', '.png', '.bmp')
+DEFAULT_EXTS = ('.jpg', '.png', '.bmp', '.tiff')
 
 
 def maj_thumbnails(idir, odir, size=DEFAULT_SIZE, force=False):
     for img, name in iterimages(idir):
+        if os.path.exists(os.path.join(odir, name)) and not force:
+            continue
         img.thumbnail(size, Image.ANTIALIAS)
         img.save(os.path.join(odir, name))
 
