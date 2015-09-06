@@ -4,17 +4,23 @@
 from PIL import Image
 import os
 import argparse
+import logging
 
-DEFAULT_SIZE = (256, 256)
+DEFAULT_SIZE = 256
 DEFAULT_EXTS = ('.jpg', '.png', '.bmp', '.tiff')
+
+THUMBNAIL_PATH_EXIST_WARNING = 'The file "{}" exists and wont be overwritten,\
+use "--force" option to force overwritting'
 
 
 def maj_thumbnails(idir, odir, size=DEFAULT_SIZE, force=False):
     for img, name in iterimages(idir):
-        if os.path.exists(os.path.join(odir, name)) and not force:
+        thumb_path = os.path.join(odir, name)
+        if os.path.exists(thumb_path) and not force:
+            logging.warning(THUMBNAIL_PATH_EXIST_WARNING.format(thumb_path))
             continue
-        img.thumbnail(size, Image.ANTIALIAS)
-        img.save(os.path.join(odir, name))
+        img.thumbnail((size, size), Image.ANTIALIAS)
+        img.save(thumb_path)
 
 
 def iterimages(idir, exts=DEFAULT_EXTS):
@@ -27,11 +33,18 @@ def iterimages(idir, exts=DEFAULT_EXTS):
 def main():
     parser = argparse.ArgumentParser(description='''Makes thumbnails\
 of a bunch of images''')
-    parser.add_argument("idir")
-    parser.add_argument("odir")
+    parser.add_argument("idir", help='image source directory')
+    parser.add_argument("odir", help='thumbnail target directory')
+    parser.add_argument("-f", "--force",
+                        action='store_true',
+                        help='overwritte generated file if exists')
+    parser.add_argument('-s', '--size',
+                        type=int,
+                        default=DEFAULT_SIZE,
+                        help='generated thumbnail size')
 
     args = parser.parse_args()
-    maj_thumbnails(args.idir, args.odir)
+    maj_thumbnails(args.idir, args.odir, args.size, args.force)
 
 if __name__ == '__main__':
     main()
