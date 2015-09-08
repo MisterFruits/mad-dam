@@ -1,0 +1,9 @@
+---
+layout: default
+categories: adventure
+date:  2015-09-07 12:11:27 
+caption_header:  Samouraï 
+caption: 
+photo: 2015-09-07-20150907_093053.jpg
+---
+
