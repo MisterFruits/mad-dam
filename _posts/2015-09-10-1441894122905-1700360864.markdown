@@ -1,0 +1,9 @@
+---
+layout: default
+categories: adventure
+date:  2015-09-10 14:09:22 
+caption_header:  Cooking machine
+caption: 
+photo: 2015-09-10-1441894122905-1700360864.jpg
+---
+
