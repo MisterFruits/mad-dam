@@ -1,0 +1,9 @@
+---
+layout: default
+categories: adventure
+date:  2015-09-15 11:46:32 
+caption_header:  King (kong) of the capital
+caption: 
+photo: 2015-09-15-1442317448593-1869400074.jpg
+---
+
