@@ -1,0 +1,9 @@
+---
+layout: default
+categories: adventure
+date:  2015-09-17 07:23:57 
+caption_header:  So long, cow boy
+caption: 
+photo: 2015-09-17-14424745864241339616577.jpg
+---
+
