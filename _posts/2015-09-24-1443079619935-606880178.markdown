@@ -1,0 +1,9 @@
+---
+layout: default
+categories: adventure
+date:  2015-09-24 07:28:24 
+caption_header:  Don mad damotte 
+caption: 
+photo: 2015-09-24-1443079619935-606880178.jpg
+---
+

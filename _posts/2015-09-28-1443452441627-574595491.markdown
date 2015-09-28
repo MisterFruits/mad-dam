@@ -1,0 +1,9 @@
+---
+layout: default
+categories: adventure
+date:  2015-09-28 15:02:12 
+caption_header:  Interview in Paris
+caption: Selfie!
+photo: 2015-09-28-1443452441627-574595491.jpg
+---
+

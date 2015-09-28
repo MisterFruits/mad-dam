@@ -1,0 +1,9 @@
+---
+layout: default
+categories: adventure
+date:  2015-09-24 07:05:01 
+caption_header:  Smiley dam
+caption: 
+photo: 2015-09-24-1443017287536-606880178.jpg
+---
+

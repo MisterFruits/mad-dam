@@ -1,0 +1,9 @@
+---
+layout: default
+categories: adventure
+date:  2015-09-28 11:27:47 
+caption_header:  Emotions acting
+caption: Mad-Dam actor, who wishes to remain anonymous, is well know for his ability to transcend emotions and open is soul to the public.
+photo: 2015-09-28-IMG_20150924_144806.jpg
+---
+

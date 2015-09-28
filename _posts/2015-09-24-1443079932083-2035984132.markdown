@@ -1,0 +1,9 @@
+---
+layout: default
+categories: adventure
+date:  2015-09-24 07:33:33 
+caption_header:  2001 a space mad dam
+caption: Whoa it&#039;s full of stars! 
+photo: 2015-09-24-1443079932083-2035984132.jpg
+---
+
