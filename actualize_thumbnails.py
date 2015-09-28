@@ -6,7 +6,7 @@ import os
 import argparse
 import logging
 
-DEFAULT_SIZE = 512
+DEFAULT_SIZE = 256
 DEFAULT_EXTS = ('.jpg', '.png', '.bmp', '.tiff')
 
 THUMBNAIL_PATH_EXIST_WARNING = 'The file "{}" exists and wont be overwritten,\
